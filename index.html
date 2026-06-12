@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChickFarm - لعبة بيبو</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<!-- شاشة تسجيل اللاعب -->
+<div id="login-screen" class="screen active">
+  <h1>مرحبًا بك في مزرعة بيبو 🐣</h1>
+  <input type="text" id="username" placeholder="اسمك">
+  <button id="new-player-btn">لاعب جديد</button>
+  <button id="existing-player-btn">لدي حساب سابق</button>
+</div>
+
+<!-- شاشة المزرعة -->
+<div id="farm-screen" class="screen">
+  <h2>مزرعة بيبو</h2>
+  <div id="bird-container">
+    <img id="pipo-img" src="assets/pipo_stage1.png" alt="بيبو">
+  </div>
+  <div id="stats">
+    <p>الطاقة: <span id="energy">100</span>%</p>
+    <p>الجوع: <span id="hunger">100</span>%</p>
+    <p>نقاط النشاط: <span id="points">0</span></p>
+  </div>
+  <button id="feed-btn">🌾 إطعام بيبو</button>
+  <button id="logout-btn">تسجيل خروج</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
