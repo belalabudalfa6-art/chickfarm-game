@@ -1,1 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #d0f0c0;
+  margin: 0;
+  padding: 0;
+}
 
+.screen { display: none; }
+.screen.active { display: block; }
+
+#login-screen {
+  padding: 50px;
+}
+
+input { padding: 10px; font-size: 16px; margin-bottom: 10px; }
+
+button { padding: 10px 20px; font-size: 16px; margin: 5px; cursor: pointer; }
+
+#farm-screen { padding: 20px; }
+
+#bird-container { margin: 20px; }
+#bird-container img { width: 150px; }
+
+#stats p { font-size: 18px; margin: 5px 0; }
